@@ -1,0 +1,88 @@
+# This .gitignore file specifies intentionally untracked files to ignore when using Git.
+# It's configured for a Python project, including common build artifacts,
+# virtual environments, IDE files, and OS-specific files.
+
+# --- Python specific ignores ---
+# Byte-code files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / build artifacts
+dist/
+build/
+*.egg-info/
+.eggs/
+*.egg
+
+# Virtual environments
+# Common names for virtual environment directories
+venv/
+.venv/
+env/
+.env/
+
+# Environment variable files (often contain sensitive info or local configs)
+.env
+*.env
+
+# Python installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Test and coverage related files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Mypy cache directory
+.mypy_cache/
+
+# Shared library files (e.g., C extensions)
+*.so
+
+# PyInstaller / Py2exe build files
+*.manifest
+*.spec
+
+# Sphinx documentation build output
+docs/_build/
+site/
+
+# Jupyter Notebook specific files (if applicable, though not in this project)
+.ipynb_checkpoints/
+
+# --- IDE / Editor specific ignores ---
+# PyCharm / IntelliJ IDEA
+.idea/
+
+# VS Code
+.vscode/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim swap files
+*.swp
+*.swo
+
+# Emacs backup files
+*~
+\#*#
+
+# --- Operating System specific ignores ---
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Miscellaneous ignores ---
+# Any temporary files or logs that might be generated locally
+*.log
+*.tmp
+*.bak

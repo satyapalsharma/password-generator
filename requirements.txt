@@ -1,0 +1,12 @@
+# requirements.txt
+#
+# This file lists the external Python packages required by the Password Generator project.
+#
+# As of this version, the project is designed to run using only Python's standard library
+# for its core functionality (password generation, strength analysis, rules, and CLI).
+# The specified tech stack (Python, secrets, argparse) are all part of the standard library.
+# Therefore, there are no external runtime dependencies listed in this file.
+#
+# For development dependencies (e.g., testing, linting, formatting),
+# refer to the [project.optional-dependencies] section in pyproject.toml
+# or a separate requirements-dev.txt file if applicable.
